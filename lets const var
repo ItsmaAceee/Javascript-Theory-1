@@ -1,0 +1,16 @@
+Reassigning to a const 'variable_name' is not allowed
+
+To output multiple result we can use console.table([variable_name1, variable_name2, variable_name3]) instead of multiple console.log(variable_name); i.e.
+variable1="tiktok"
+variable2="facebook"
+variable3="youtube"
+console.table([variable1, variable2, variable3]);
+
+Use of 'var' has issues of block and functional scope so we avoid var and use 'let'
+
+
+
+// Datatypes and ECMA standards //
+"use strict";               //treat all JS code as newer version
+
+in initial days, we had many standards of javascript language i.e. different browsers used different standards of it. 
